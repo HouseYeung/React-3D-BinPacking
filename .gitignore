@@ -1,0 +1,22 @@
+cat > .gitignore << EOL
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node
+bin-packing-app/node_modules/
+bin-packing-app/.next/
+bin-packing-app/build/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Others
+*.log
+EOL 
